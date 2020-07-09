@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>JavaScript Form Validation using a sample registration form</title>
+<link rel='stylesheet' href='form.css' type='text/css'>
+<script>
+	function check(){
+		var email=document.getElementById("email").value;
+		var pswd=document.getElementById("passid").value;
+		var pswd2=document.getElementById("passid2").value;
+		if(email==""|pswd==""|pswd2==""|userid==""){
+			alert("Every Field should be Filled ");
+		}
+		else if(pswd!=pswd2){
+			alert("ENTER MATCHING PASSWORD");
+		}
+		else{
+			alert("USER CREATED");
+		}
+	}
+</script>
+</head>
+<body>
+<div class="formbody">
+	<h1>Registration Form</h1>
+	<form name='registration' action="#">
+		<table>
+		<tr><td><label for="userid">User id:</label></td>
+		<td><input type="text" id="userid" size="12"></td></tr>
+		<tr><td><label for="passid">Password:</label></td>
+		<td><input type="password" id="passid" size="12"></td></tr>
+		<tr><td><label for="passid2">Password:</label></td>
+		<td><input type="password" id="passid2" size="12"></td></tr>
+		<tr><td><label for="username">Name:</label></td>
+		<td><input type="text" id="username" size="50"></td></tr>
+		<tr><td><label for="email">Email:</label></td>
+		<td><input type="text" id="email" size="50" /></td></tr>
+		<tr><td></td><td><input id="submit" type="submit" value="Sign In" onclick="check()"><td></tr>
+		</table>
+	</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body{
+	background-image: url("https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-decent.png");
+	background-size: cover;
+}
+h1 {
+	text-align: center;
+}
+
+p {
+margin-left: 70px;
+font-weight: bold;
+}
+.formbody{
+	background-color: #b0f2b0;
+	height: auto;
+	position: absolute;
+	padding: 10px;
+	margin-left: 550px;
+	margin-top: 200px;
+	margin-right: auto;
+	border-radius: 2em;
+	align-self: center;
+
+}
+input{
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove;
+        border-bottom-color: 1px solid black;
+        background-color: transparent;
+        width: 300px;
+
+}
+#submit{
+	color: #b0f2b0;
+    background-color: #007600;
+    border-bottom: transparent;
+    border-radius: 1em;
+    height: 30px;
+    font-size: 20px;
+}
+#submit:hover{
+	color: black;
+	cursor: pointer;
+}
+td{
+	padding: 5px;
+}
+label{
+	font-size: 20px;
+	font-style: oblique;
+    font-weight: bold;
+}
